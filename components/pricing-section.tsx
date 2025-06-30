@@ -129,10 +129,10 @@ export default function PricingSection() {
 
               <div className="space-y-3 mb-8">
                 {[
-                  "✅ Setup completo en 48 horas",
+                  "✅ Setup completo en 10 dias habiles",
                   "✅ Entrenamiento personalizado",
                   "✅ Integración con tu CRM actual",
-                  "✅ WhatsApp + Instagram conectados",
+                  "✅ WhatsApp o Instagram conectados",
                   "✅ Panel de supervisión incluido",
                   "✅ Soporte prioritario 24/7",
                   "✅ Actualizaciones gratuitas",
@@ -190,10 +190,10 @@ export default function PricingSection() {
 
               <div className="space-y-3 mb-8">
                 {[
-                  "✅ Setup completo en 48 horas",
+                  "✅ Setup completo en 10 dias habiles",
                   "✅ Entrenamiento personalizado",
                   "✅ Integración con tu CRM actual",
-                  "✅ WhatsApp + Instagram conectados",
+                  "✅ WhatsApp o Instagram conectados",
                   "✅ Panel de supervisión incluido",
                   "✅ Soporte estándar 24/7",
                   "✅ Actualizaciones gratuitas",

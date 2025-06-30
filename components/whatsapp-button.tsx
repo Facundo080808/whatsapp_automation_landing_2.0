@@ -8,7 +8,7 @@ export default function WhatsAppButton() {
     const message = encodeURIComponent(
       "¡Hola! Vengo de la landing page del Agente IA Conversacional y me interesa automatizar la atención de mi negocio. ¿Pueden darme más información?",
     )
-    window.open(`https://wa.me/1234567890?text=${message}`, "_blank")
+    window.open(`https://wa.me/56930835236?text=${message}`, "_blank")
   }
 
   return (

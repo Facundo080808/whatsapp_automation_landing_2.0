@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        {/* <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-gray-400 text-sm">© 2024 Agente IA. Todos los derechos reservados.</p>
             <div className="flex items-center gap-6 text-sm text-gray-400">
@@ -102,7 +102,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   )

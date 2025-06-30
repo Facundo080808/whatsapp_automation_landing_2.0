@@ -272,7 +272,7 @@ export default function CTASection() {
 
           <div className="text-center p-4 bg-white/80 backdrop-blur-sm rounded-xl border border-gray-200">
             <Clock className="w-6 h-6 text-purple-600 mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">48h</div>
+            <div className="text-2xl font-bold text-gray-900">10 días habiles</div>
             <div className="text-sm text-gray-600">Setup completo</div>
           </div>
 

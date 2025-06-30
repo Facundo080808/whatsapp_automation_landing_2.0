@@ -21,7 +21,7 @@ const modules = [
     features: [
       "Tu CRM actual (HubSpot, Pipedrive, etc.)",
       "Sistema de booking existente",
-      "WhatsApp Business API + Instagram",
+      "WhatsApp Business API o Instagram",
       "Sincronización en tiempo real",
     ],
     color: "from-indigo-500 to-purple-500",
@@ -43,7 +43,7 @@ const modules = [
     features: [
       "Setup completo incluido",
       "Training personalizado",
-      "Soporte técnico 24/7",
+      "Soporte técnico: Lunes a Viernes 09:00-18:30 (-3GMT)",
       "Actualizaciones gratuitas",
     ],
     color: "from-pink-500 to-red-500",
@@ -101,7 +101,7 @@ export default function SystemSection() {
             Todo listo para funcionar
             <span className="bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text text-transparent">
               {" "}
-              desde día 1
+              desde día 10
             </span>
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
@@ -142,7 +142,7 @@ export default function SystemSection() {
         </div>
 
         {/* Pricing Hint */}
-        <motion.div variants={itemVariants} className="text-center mb-12">
+        {/* <motion.div variants={itemVariants} className="text-center mb-12">
           <div className="inline-flex items-center gap-4 px-8 py-4 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-full shadow-lg">
             <DollarSign className="w-6 h-6" />
             <div className="text-left">
@@ -150,14 +150,14 @@ export default function SystemSection() {
               <div className="text-sm opacity-90">Menos que medio salario</div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Value Proposition */}
         <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200">
             <Zap className="w-8 h-8 text-indigo-600 mx-auto mb-3" />
             <h4 className="font-bold text-gray-900 mb-2">Setup Inmediato</h4>
-            <p className="text-gray-600 text-sm">Funcionando en menos de 48 horas</p>
+            <p className="text-gray-600 text-sm">Funcionando en 10 dias habiles</p>
           </div>
 
           <div className="text-center p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200">
