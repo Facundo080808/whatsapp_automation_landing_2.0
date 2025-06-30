@@ -134,7 +134,7 @@ export default function PricingSection() {
                   "✅ Integración con tu CRM actual",
                   "✅ WhatsApp o Instagram conectados",
                   "✅ Panel de supervisión incluido",
-                  "✅ Soporte prioritario 24/7",
+                  "✅ Soporte tecnico Lunes a Viernes 09:00-18:30(-3GTM)",
                   "✅ Actualizaciones gratuitas",
                   "✅ Garantía de funcionamiento",
                 ].map((feature, index) => (
@@ -195,7 +195,7 @@ export default function PricingSection() {
                   "✅ Integración con tu CRM actual",
                   "✅ WhatsApp o Instagram conectados",
                   "✅ Panel de supervisión incluido",
-                  "✅ Soporte estándar 24/7",
+                  "✅ Soporte tecnico Lunes a Viernes 09:00-18:30(-3GTM)",
                   "✅ Actualizaciones gratuitas",
                   "✅ Garantía de funcionamiento",
                 ].map((feature, index) => (
