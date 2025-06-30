@@ -117,7 +117,7 @@ export default function PricingSection() {
                 <div className="mb-6">
                   <div className="text-5xl font-black text-green-600 mb-2">$3,000</div>
                   <div className="text-gray-600 mb-4">Setup completo + entrenamiento</div>
-                  <div className="text-3xl font-bold text-blue-600">+ $150/mes</div>
+                  <div className="text-3xl font-bold text-blue-600">+ $299/mes</div>
                   <div className="text-sm text-gray-500">Microservicios + OpenAI GPT-4</div>
                 </div>
 
@@ -178,7 +178,7 @@ export default function PricingSection() {
                 <div className="mb-6">
                   <div className="text-5xl font-black text-gray-600 mb-2">$4,000</div>
                   <div className="text-gray-600 mb-4">Setup completo + entrenamiento</div>
-                  <div className="text-3xl font-bold text-blue-600">+ $150/mes</div>
+                  <div className="text-3xl font-bold text-blue-600">+ $299/mes</div>
                   <div className="text-sm text-gray-500">Microservicios + OpenAI GPT-4</div>
                 </div>
 
@@ -252,23 +252,23 @@ export default function PricingSection() {
           className="mt-12 max-w-3xl mx-auto"
         >
           <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200">
-            <h4 className="font-bold text-blue-900 mb-3 text-center">💡 ¿Por qué $150/mes?</h4>
+            <h4 className="font-bold text-blue-900 mb-3 text-center">💡 ¿Por qué $299/mes?</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                <span className="text-blue-800">OpenAI GPT-4 API (~$80/mes)</span>
+                <span className="text-blue-800">OpenAI GPT-4 API </span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                <span className="text-blue-800">Servidores cloud (~$40/mes)</span>
+                <span className="text-blue-800">Servidores cloud </span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                <span className="text-blue-800">WhatsApp Business API (~$20/mes)</span>
+                <span className="text-blue-800">Integracion WhatsApp Business o Instagram</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                <span className="text-blue-800">Mantenimiento y soporte (~$10/mes)</span>
+                <span className="text-blue-800">Mantenimiento y soporte</span>
               </div>
             </div>
             <div className="text-center mt-4 text-blue-700 font-medium">

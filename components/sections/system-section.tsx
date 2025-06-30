@@ -10,7 +10,7 @@ const modules = [
     features: [
       "Tus FAQs, políticas, y tone of voice",
       "Entrenamiento con conversaciones históricas",
-      "Actualización continua automática",
+     
       "Respuestas contextuales inteligentes",
     ],
     color: "from-blue-500 to-indigo-500",
@@ -30,10 +30,8 @@ const modules = [
     icon: BarChart3,
     title: "Panel de Control",
     features: [
-      "Métricas en tiempo real",
       "Conversaciones supervisadas",
       "Optimización continua",
-      "Reportes automáticos",
     ],
     color: "from-purple-500 to-pink-500",
   },
@@ -44,7 +42,6 @@ const modules = [
       "Setup completo incluido",
       "Training personalizado",
       "Soporte técnico: Lunes a Viernes 09:00-18:30 (-3GMT)",
-      "Actualizaciones gratuitas",
     ],
     color: "from-pink-500 to-red-500",
   },
