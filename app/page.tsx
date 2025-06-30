@@ -121,7 +121,7 @@ export default function LandingPage() {
         <PricingSection />
 
         <SystemSection />
-        <TestimonialSection />
+        {/* <TestimonialSection /> */}
         <CTASection />
       </main>
 

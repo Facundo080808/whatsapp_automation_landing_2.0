@@ -225,7 +225,7 @@ export default function CTASection() {
         </div>
 
         {/* Guarantees */}
-        <motion.div variants={itemVariants} className="text-center mb-12">
+        {/* <motion.div variants={itemVariants} className="text-center mb-12">
           <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-full shadow-lg mb-6">
             <Shield className="w-6 h-6" />
             <span className="font-bold text-lg">Setup gratis si no funciona en 48 horas</span>
@@ -242,10 +242,10 @@ export default function CTASection() {
               <div className="text-sm text-gray-600">✓ 100% compatible</div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Risk Reversal */}
-        <motion.div variants={itemVariants} className="text-center mb-12">
+        {/* <motion.div variants={itemVariants} className="text-center mb-12">
           <div className="max-w-2xl mx-auto">
             <p className="text-xl text-gray-700 mb-4">
               <span className="font-bold">La prueba es gratis.</span>
@@ -254,8 +254,8 @@ export default function CTASection() {
               El único riesgo es no intentarlo y seguir perdiendo clientes por respuestas lentas.
             </p>
           </div>
-        </motion.div>
-
+        </motion.div> */}
+{/*  */}
         {/* Final Stats */}
         <motion.div variants={itemVariants} className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="text-center p-4 bg-white/80 backdrop-blur-sm rounded-xl border border-gray-200">
