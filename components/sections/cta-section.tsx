@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { MessageCircle, Calendar, Download, Shield, Clock, Zap, Users, TrendingUp } from "lucide-react"
 import { useState, useEffect } from "react"
+import { ButtonLink } from "../ui/linkButton"
 
 export default function CTASection() {
   const [email, setEmail] = useState("")
@@ -79,7 +80,7 @@ export default function CTASection() {
     const message = encodeURIComponent(
       "¡Hola! Vengo de la landing page del Agente IA Conversacional y me interesa automatizar la atención de mi negocio. ¿Pueden darme más información sobre cómo funciona y los precios?",
     )
-    window.open(`https://wa.me/1234567890?text=${message}`, "_blank")
+    window.open(`https://wa.me/56930835236?text=${message}`, "_blank")
   }
 
   return (
@@ -185,13 +186,14 @@ export default function CTASection() {
                     className="w-full"
                     required
                   />
-                  <Button
+                  <ButtonLink
                     type="submit"
                     disabled={isSubmitting}
                     className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white py-3 font-semibold"
+                    href="mailto:criquelme@perceivoai.agency"
                   >
                     {isSubmitting ? "Agendando..." : "Agendar Demo Gratis"}
-                  </Button>
+                  </ButtonLink>
                 </form>
 
                 <div className="text-xs text-gray-500">✓ Demo de 15 minutos ✓ Sin compromiso</div>
@@ -210,13 +212,15 @@ export default function CTASection() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Hablar con Especialista</h3>
                 <p className="text-gray-600 mb-6">Consulta personalizada sobre tu caso específico</p>
 
-                <Button
+                <ButtonLink
                   variant="outline"
                   className="w-full bg-white text-purple-700 border-2 border-purple-200 hover:bg-purple-50 py-6 text-lg font-semibold mb-6"
+                  href="https://calendar.app.google/tG5zqJ8B12oTB5jw6"
+                  target="_blank"
                 >
                   <Calendar className="w-5 h-5 mr-2" />
                   Agendar Consulta
-                </Button>
+                </ButtonLink>
 
                 <div className="text-xs text-gray-500">✓ Análisis gratuito ✓ Estrategia personalizada</div>
               </div>
